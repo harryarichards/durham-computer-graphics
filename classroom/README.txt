@@ -1,0 +1,1 @@
+Recommended Browsers for the assignment are Firefox and Safari, these are the only 2 browsers that the classroom that I have tested this in.

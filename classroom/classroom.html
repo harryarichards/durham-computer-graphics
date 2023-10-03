@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Classroom.css">
+    <meta charset="utf-8" />
+    <title>Classroom model</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="classroom_canvas" width="1200" height="600"> </canvas>
+
+    <p style="text-align:left;"><u>Navigate</u> <span style="float:right;"><u>Operations</u> </span></p>
+    <p style="text-align:left;">&uarr;: LOOK FORWARDS &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp W: Move Forwards &nbsp &nbsp &nbsp &nbsp Q: Strafe Upwards<span style="float:right;">7: RAISE LEFT BOARD &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Y: LOWER LEFT BOARD &nbsp &nbsp &nbsp</span></p>
+    <p style="text-align:left;">&larr;: LOOK LEFT  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp A: Strafe Left &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp E: Strafe Downwards<span style="float:right;">8: RAISE MIDDLE BOARD &nbsp &nbsp &nbsp &nbsp &nbsp U: LOWER MIDDLE BOARD</span></p>
+    <p style="text-align:left;">&rarr;: LOOK RIGHT &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp S: Strafe Backwards<span style="float:right;">9: RAISE RIGHT BOARD &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp I: LOWER RIGHT BOARD &nbsp  &nbsp</span></p>
+    <p style="text-align:left;">&darr;: LOOK DOWNWARDS &nbsp &nbsp &nbsp &nbsp   D: Strafe Right <span style="float:right;">B: BLINDS UP/DOWN &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp</span></p>
+    <p style="text-align:right;">M: OPEN LAPTOPS  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbspL: CLOSE LAPTOPS   &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp</p>
+    <p style="text-align:right;">O: OPEN DOOR  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbspC: CLOSE DOOR  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp</p>
+    <p style="text-align:left;"><u>Lights</u></p>
+    <p style="text-align:left;">1: LIGHT 1 ON/OFF &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 2: LIGHT 2 ON/OFF &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 3: LIGHT3 ON/OFF</p>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="Classroom.js"></script>
+  </body>
+</html>
